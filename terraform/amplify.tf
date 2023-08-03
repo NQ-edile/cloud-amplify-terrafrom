@@ -2,7 +2,7 @@ resource "aws_amplify_app" "react_app" {
   name = "terraform-react-app"
   repository = "https://github.com/NQ-edile/cloud-amplify-terrafrom"
 
-  access_token = "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"
+  access_token = ""
 
   build_spec = <<-EOT
     version: 0.1
